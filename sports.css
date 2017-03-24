@@ -19,4 +19,25 @@ ul li{
      padding: 10px 20px 20px 10px;
      text-decoration: underline;
  }
- h1 { text-align: center } 
+ h1 { 
+     text-align: center 
+     
+ } 
+ 
+ #centerImages{
+     display: flex;
+     justify-content: center;
+ }
+ 
+  #imagesContainer{
+      width: 100%;
+    background-color:lightslategrey;
+    display: flex;
+    justify-content:row;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 250px;
+    width: 400px
+}

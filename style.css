@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan');
 body{
     background-color: cadetblue;
 }
@@ -10,13 +11,31 @@ h1{
     text-align: center;
     font-size: 40px;
 }
-#imagesContainer{
+  #imagesContainer{
+      width: 100%;
     background-color:navy;
-}
-p {
-    font-family: 'Droid Sans', sans-serif;
+    display: flex;
+    justify-content:row;
+    flex-wrap: wrap;
 }
 
+img {
+    height: 250px;
+    width: 400px
+}
+p {
+font-family: 'Bevan', cursive;
+
+text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.topImage{
+    height: 178px;
+}
 img {
     height: 250px;
     width: 400px
